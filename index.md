@@ -18,7 +18,7 @@ the P1 facilities (all located in the greater Copenhagen area). The two workshop
 the primary driver for the program.
 
 
-[The program](https://www.aicentre.dk/p1-programs/arctic-ai) is a [P1 Program](https://www.aicentre.dk/active-p1-programs) funded by the [Danish Pioneer Centre for Artificial Intelligence](https://www.aicentre.dk/). Read more about the program on the the program on the [P1 Website](https://www.aicentre.dk/p1-programs/arctic-ai).
+[The program](https://www.aicentre.dk/p1-programs/arctic-ai) is a [P1 Program](https://www.aicentre.dk/active-p1-programs) funded by the [Danish Pioneer Centre for Artificial Intelligence](https://www.aicentre.dk/). Read more about the program on the [P1 Website](https://www.aicentre.dk/p1-programs/arctic-ai).
 
 
 
@@ -33,13 +33,20 @@ representation learning. The workshop will feature technical deep-dive sessions 
 presentations to identify synergies and potential research directions.
 
 
-- **Date:** June 8th, 2026
-- **Venue:** Copenhagen, Denmark
+**Date:** June 8th, 2026
+
+**Venue:**
+The event will be hosted at the audiotorium at<br>
+Natural History Museum Denmark<br>
+Øster Voldgade 5 – 7<br>
+1350 Copenhagen K.
+
+The museum is a 2 minute walk from the danish [Poineer Center](https://www.aicentre.dk/practical-info-about-the-facilities).
 
 ### Signup
 
 Signup by completing [this form](https://forms.gle/EQZRMQzFqsu9KJy59).
 
-There will be limited seating, and you participation is only secured once you get a confirmation by email (will take some days)
+There will be limited seating, and you participation is only secured once you get a confirmation by email (will take some days). Participation in the workshop is free.
 
 
