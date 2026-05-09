@@ -21,11 +21,15 @@ To appear.
 #### Tom Kelly
 * **Affiliation:** British Antarctic Survey
 * **Website:** [BAS Profile](https://www.bas.ac.uk/profile/thokel/)
-* **Title:** AI for Arctic Conservation and Sea Ice Forecasting
+* **Title:** L4 Sea Ice Dataset
 
 **Abstract**
-To appear.
+Antarctic sea ice is an essential climate variable, critical to navigation, forecasting, and conservation. However, Earth observation in this region is severely constrained by persistent cloud cover, prolonged darkness, and highly dynamic surface conditions characterized by rapid ice drift and variable snowfall. To address these deficits, we introduce L4 - Large-scale, Low-Latency & Low-Level Antarctic Datasets. To mitigate temporal latency in dynamic ice, L4 enforces strict temporal co-registration: Sentinel-1 (S1) and MODIS acquisitions are paired within one hour, while AMSR2 overlaps are constrained to six hours. To overcome optical limitations, L4 leverages active radar (S1) and passive microwave (AMSR2) sensors capable of continuous acquisition.
 
+L4 encompasses a pretraining and finetuning partitions of chips covering Antarctic ice in coincident S1, MODIS, and AMSR2, channels, as well as metadata including per-pixel location, incidences, and ERA5 atmospheric variables. We demonstrate the dataset by training a geospatial foundation model on L4, applying the MultiMAE architecture to model missing modalities, such as S1:HV failures. Our results demonstrate that pretraining on L4 improves sea ice prediction efficacy compared to conventional supervised learning. Looking forward, L4 will facilitate automated validation of the AMSR2-derived sea ice record, enable the spatial representation of PM uncertainty, and support rigorous sensitivity analyses of the ubiquitous 15% sea ice area threshold.
+
+**Bio**
+Tom is a lost computer graphics researcher, who has found himself working at BAS (the British Antarctic Survey). Along the way he's worked as a video games programmer, bar staff, lecturer, and software engineer at ESRI. In academia, during his computer graphics PhD and postdoc, he invented new geometric primitives as well as learning the hardware and software skills for the nascent ML revolution, to publish at venues including CVPR, NeurIPS, Siggraph, ICCV, and Eurographics, Recently, Tom has applied his interest in all things visual to procedural and synthetic data, foundation models, and earth observation of the cryosphere.
 ---
 
 #### Elena Tomasi
