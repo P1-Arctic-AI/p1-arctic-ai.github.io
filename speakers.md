@@ -11,10 +11,19 @@ All speakers are confirmed. Titles are tentative
 * **Affiliation:** Aalborg University, Denmark
 * **Title:** Professor of Machine Learning and Speech Processing
 * **Website:** [Aalborg University Profile](https://zhenghuatan.es.aau.dk/)
-* **Title:** Self-supervised learning principles
+* **Title:** Self‑Supervised Learning and Alignment for Large Multimodal Models
 
 **Abstract**
-To appear.
+Self‑supervised learning (SSL) has become a central approach for training large multimodal models that learn from audio, vision, and language at scale, precisely because it requires no human labels. This talk introduces the core concepts and methods of SSL and shows how them form the foundation for building powerful multimodal systems. We will discuss how SSL enables effective pre-training and how such pre-trained models can be adapted to a wide range of downstream tasks. The talk will highlight several application domains, with an emphasis on audio and image data, including the development of multimodal language models.
+
+While SSL leverages vast amounts of unlabelled data, there is often a significant mismatch between pre-trained representations and the downstream objectives, leading to poor alignment. In the second part of the talk - alignment - we will examine strategies to ensure that pre-trained models are aligned with downstream goals and real-world requirements. We will show how SSL and alignment together drive progress in modern multimodal AI.
+
+**Bio**
+Zheng-Hua Tan is a Professor of Machine Learning and Speech Processing, a Co-Head of the Centre for Acoustic Signal Processing Research (CASPR), and the Machine Learning Research Group Leader in the Department of Electronic Systems at Aalborg University, Denmark. He is a Co-Lead of Pioneer Centre for Artificial Intelligence, Denmark.
+
+He was a Visiting Scientist/Professor at the Computer Science and Artificial Intelligence Laboratory (CSAIL), Massachusetts Institute of Technology (MIT), Cambridge, USA, and an Associate Professor with the Department of Electronic Engineering, SJTU, Shanghai, China. 
+
+His research interests include machine learning, deep learning, noise-robust speech processing, and multimodal signal processing. He has co-authored 300 peer-reviewed papers. His works have been recognized by the IEEE Signal Processing Society 2022 Best Paper Award and International Speech Communication Association 2022 Best Research Paper Award. He is the Lead Editor for IEEE Journal of Selected Topics in Signal Processing Special Series on AI in Signal and Data Science. He served as the elected Chair of IEEE SPS Machine Learning for Signal Processing Technical Committee, a Member of IEEE SPS Technical Directions Board and Conferences Board, an Associate Editor for the IEEE TRANSACTIONS ON AUDIO, SPEECH AND LANGUAGE PROCESSING. He is the General Chair for ICASSP 2029 (Copenhagen) and a TPC Co-Chair for ICASSP 2028 (Tokyo). He was a TPC Vice-Chair for ICASSP 2024 (Seoul) and the General Chair for IEEE MLSP 2018 (Aalborg).
 
 ---
 
@@ -30,6 +39,7 @@ L4 encompasses a pretraining and finetuning partitions of chips covering Antarct
 
 **Bio**
 Tom is a lost computer graphics researcher, who has found himself working at BAS (the British Antarctic Survey). Along the way he's worked as a video games programmer, bar staff, lecturer, and software engineer at ESRI. In academia, during his computer graphics PhD and postdoc, he invented new geometric primitives as well as learning the hardware and software skills for the nascent ML revolution, to publish at venues including CVPR, NeurIPS, Siggraph, ICCV, and Eurographics, Recently, Tom has applied his interest in all things visual to procedural and synthetic data, foundation models, and earth observation of the cryosphere.
+
 ---
 
 #### Elena Tomasi
@@ -45,10 +55,14 @@ To appear.
 #### Louisa Van Zeeland
 * **Affiliation:** The Alan Turing Institute
 * **Website:** [The Alan Turing Institute Profile](https://www.turing.ac.uk/people/louisa-van-zeeland)
-* **Title:** TBD
+* **Title:** Multimodal sea ice forecasting
+
 
 **Abstract**
-To appear.
+All 19 of the lowest Arctic September minimum extents on record have occurred in the last 19 years, yet the rapid, unpredictable nature of recent change is outpacing traditional physics-based models. IceNet-MP is an open-source multimodal deep learning pipeline built around an encode-process-decode architecture, with a vision transformer as one of the core processors, and an in-development diffusion model for probabilistic forecasting. Designed to ingest heterogeneous datasets simultaneously, IceNet-MP incorporates new observation streams as additional encoders without redesigning the core model. Argo float data have been integrated as a first new input modality, with forecast skill evaluation ongoing.
+
+**Bio**
+Louisa van Zeeland is a research lead at the Alan Turing Institute, where she leads development of IceNet-MP, a multimodal deep learning pipeline for sea ice forecasting in support of Arctic resilience. With over 20 years of ML experience at organizations like Stanford Research Institute, Vulcan, and AI2, her work spans ocean health, biodiversity, and environmental forecasting.
 
 ---
 
