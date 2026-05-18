@@ -3,7 +3,7 @@ layout: page
 title: "Speakers"
 permalink: /speakers/
 ---
-All speakers are confirmed. Titles are tentative
+All speakers are confirmed.
 
 ---
 
@@ -45,10 +45,17 @@ Tom is a lost computer graphics researcher, who has found himself working at BAS
 #### Elena Tomasi
 * **Affiliation:** Fondazione Bruno Kessler (FBK)
 * **Website:** [FBK profile](https://magazine.fbk.eu/en/spotlight/elena-tomasi/)
-* **Title:** Diffusion models and downscaling
+* **Title:** Deep learning for high-resolution climate projections: a Latent Diffusion Model emulating dynamical downscaling over Italy 
 
 **Abstract**
-To appear.
+Global Climate Models (GCMs) provide critical insights into future climate variability, yet their coarse spatial resolution limits their utility for regional and local-scale impact assessments. AI-driven downscaling techniques have emerged in the last few years as a cost-effective and viable alternative to traditional methods to enhance the spatial resolution of climate projections. Nevertheless, establishing their reliability in unseen climate states remains a priority. This study applies and evaluates a deep generative Latent Diffusion Model, leveraging a residual approach (LDM_res, Tomasi et al., 2025) to downscale GCM outputs (~1°) to high-resolution (~4 km) 6-hourly precipitation and 2-m minimum and maximum temperature fields.
+
+The LDM is developed as an emulator of the COSMO-CLM dynamical model, trained on VHR-REA_IT data (Raffa et al., 2021 - a dynamical downscaling of ERA5). By using aggregated ERA5 data as low-resolution predictors (along with high-resolution static data), the LDM_res model is required to learn to mimic the computationally expensive physics of dynamical downscaling. The model, trained over the past 40 years, is subsequently applied to generate high-resolution climate projections based on the input from four selected CMIP6 GCMs across four different emission scenarios. This modeling chain establishes a hybrid ML-Physics-based system to provide impact assessors with cost-effective, high-resolution climate information.
+
+The study explores the model's out-of-distribution performance by benchmarking its projections against the dynamically downscaled VHR-PRO_IT dataset (Raffa et al., 2023), evaluating reliability in unprecedented climate states. Comparative analysis against low resolution inputs demonstrates that the LDM_res effectively preserves large-scale signals while providing superior spatial realism and local variability in complex terrains compared to traditional statistical methods. 
+
+**Bio**
+Dr. Elena Tomasi is a researcher at Fondazione Bruno Kessler (FBK), specializing in AI-based modeling for weather and climate science within the Data Science for Industry and Physics unit. Her main research topic is data-driven climate downscaling, a critical area of focus within the Spoke 4—Earth and Climate of the National Center for HPC, Big Data, and Quantum Computing. She is an Environmental Engineer, graduated from the University of Trento, where she also earned her PhD, focusing on high-resolution numerical modeling of weather prediction and pollutant dispersion. Before joining FBK, she gained five years of experience in the private sector at a consultancy firm, focusing on meteorological and air quality models.
 
 ---
 
@@ -56,7 +63,6 @@ To appear.
 * **Affiliation:** The Alan Turing Institute
 * **Website:** [The Alan Turing Institute Profile](https://www.turing.ac.uk/people/louisa-van-zeeland)
 * **Title:** Multimodal sea ice forecasting
-
 
 **Abstract**
 All 19 of the lowest Arctic September minimum extents on record have occurred in the last 19 years, yet the rapid, unpredictable nature of recent change is outpacing traditional physics-based models. IceNet-MP is an open-source multimodal deep learning pipeline built around an encode-process-decode architecture, with a vision transformer as one of the core processors, and an in-development diffusion model for probabilistic forecasting. Designed to ingest heterogeneous datasets simultaneously, IceNet-MP incorporates new observation streams as additional encoders without redesigning the core model. Argo float data have been integrated as a first new input modality, with forecast skill evaluation ongoing.
