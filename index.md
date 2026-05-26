@@ -45,8 +45,10 @@ The museum is a 2 minute walk from the danish [Poineer Center](https://www.aicen
 
 ### Signup
 
-Signup by completing [this form](https://forms.gle/EQZRMQzFqsu9KJy59).
+Signup is closed.
 
-There will be limited seating, and you participation is only secured once you get a confirmation by email (will take some days). Participation in the workshop is free.
+<!-- Signup by completing [this form](https://forms.gle/EQZRMQzFqsu9KJy59).
+
+There will be limited seating, and you participation is only secured once you get a confirmation by email (will take some days). Participation in the workshop is free.-->
 
 
